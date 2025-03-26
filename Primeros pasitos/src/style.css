@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #d9b0ee;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form{
+  background-color: #095ec0;
+  padding: 5px;
+}
+form,label,legend{
+  color: #6E2C00;
+  background-color: #F9E79F;
+  
+}
+fieldset{
+  padding: 10px;
+  display:grid;
+  border: 5px solid rgb(83, 83, 83);
+}
+input{
+  margin: 5px;
+  text-align: center;
+  padding: 4px;
+}
+label{
+  margin: 5px;
+  color: #6E2C00;
+}
+#Guarda{
+  background: linear-gradient(rgb(85, 85, 85),pink);
+font-size: 29px;
+border:2px solid rgb(231, 231, 231);
+box-shadow: 8px 7px 7px #f8f85b;
+transition: background 0.3s ease; /* Agrega una transición suave al cambio de color */
+}
+
+#Guarda:active {
+  background: #bebe15; /* Nuevo color cuando se presiona */
+}
